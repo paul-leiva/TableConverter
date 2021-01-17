@@ -63,7 +63,6 @@ class TableConverter {
                 }
             }
             table += "</table>\n</html>\n";
-            System.out.println(table);
             writer.write(table);
             writer.close();
 
